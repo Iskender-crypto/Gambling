@@ -1,6 +1,6 @@
 {
   "name": "nuxt3-primevue-starter",
-  "version": "1.5.2",
+  "version": "1.8.2",
   "license": "MIT",
   "scripts": {
     "build": "nuxi build",
@@ -13,10 +13,7 @@
     "lint": "eslint --fix .",
     "test:ui": "vitest --ui",
     "test:unit": "vitest --run --reporter verbose",
-    "test:coverage": "vitest run --coverage",
-    "story:dev": "histoire dev",
-    "story:build": "histoire build",
-    "story:preview": "histoire preview"
+    "test:coverage": "vitest run --coverage"
   },
   "devDependencies": {
     "@histoire/plugin-nuxt": "^0.16.2",

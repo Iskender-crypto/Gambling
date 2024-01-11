@@ -1,0 +1,20 @@
+.ellipse-1{
+  background: linear-gradient(180deg, #478BF9 0%, rgba(71, 139, 249, 0.40) 100%);
+  opacity: 0.55;
+  filter: blur(150px);
+  width: 226.458px;
+  height: 1302.469px;
+  animation: ellipse-animate1 300s linear infinite;
+}
+
+@keyframes ellipse-animate1 {
+  0%{
+    transform:  translate(0,0) rotate(0);
+  }
+  50%{
+    transform:  translate(-200px,-500px) rotate(720deg);
+  }
+  100%{
+    transform:  translate(0,0) rotate(0);
+  }
+}

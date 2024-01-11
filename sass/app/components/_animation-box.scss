@@ -1,0 +1,18 @@
+.animation-box{
+  height: 900px;
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.animation-elem{
+  animation: scroll 20s linear;
+}
+@keyframes scroll {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}

@@ -1,11 +1,11 @@
 <script setup>
 useHead({
-  title: 'Nuxt 3 PrimeVue Starter'
+  title: 'Gambling'
 })
 </script>
 
 <template>
-  <NuxtLayout>
+  <NuxtLayout class="h-full">
     <NuxtPage />
   </NuxtLayout>
 </template>

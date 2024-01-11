@@ -1,0 +1,22 @@
+.lang-dropdown{
+  border-radius: 24px;
+  border: 2px solid var(--additional-purple-9-dadf-2, #9DADF2);
+  background: var(--main-navy-blue-110-a-1-d, #110A1D);
+ .p-dropdown-trigger{
+   display: none;
+ }
+  .p-dropdown-label:focus, .p-dropdown .p-dropdown-label:enabled:focus{
+    outline: none;
+    box-shadow: none;
+  }
+
+}
+.p-dropdown-panel .p-dropdown-items{
+  padding: 0;
+}
+
+.lang-dropdown:not(.p-disabled).p-focus{
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: none;
+}
